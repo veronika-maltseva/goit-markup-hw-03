@@ -58,6 +58,16 @@ h3 {
     letter-spacing: 0.02em;
 }
 
+main {
+    flex-grow: 1;
+}
+
+.page-container {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
 .container {
     width: 1158px;
     margin: 0 auto;
@@ -273,7 +283,17 @@ h3 {
     
 }
 
-.card {}
+.card {
+    display: flex;
+    width: 360px;
+    height: 420px;
+    padding-bottom: 0px;
+    align-items: flex-start;
+    gap: 32px;
+    flex-shrink: 0;
+    border: 1px solid var(--cornflower, #E7E9FC);
+    background: var(--white, #FFF);
+}
 
 .portfolio-btn {
     color: var(--main-logo-cl);
