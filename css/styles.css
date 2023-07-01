@@ -1,3 +1,9 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
 :root {
     --main-dark-cl: #434455;
     --main-logo-cl: #4D5AE5;
@@ -11,6 +17,23 @@ body {
     background-color: var(--main-background-cl);
     color: var(--main-dark-cl);
     font-family: 'Roboto', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
+
+ul,
+ol {
+    list-style: none;
+    margin: 0;
+    padding: 0;
 }
 
 a {
