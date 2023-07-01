@@ -83,6 +83,7 @@ h3 {
     display: flex;
     align-items: center;
     gap: 40px;
+    padding-left: 35px;
 }
 
 .logo {
@@ -163,13 +164,20 @@ h3 {
     font-size: 56px;
     line-height: 1.07;
     letter-spacing: 0.02em;
+    text-align: center;
 }
 
 .hero-btn {
+    display: inline-flex;
+    padding: 16px 32px;
+    align-items: flex-start;
+    gap: 10px;
     margin-bottom: 188px;
 
     background-color: var(--main-logo-cl);
     color: var(--main-background-cl);
+    border-radius: 4px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
 
 .hero-btn:hover,
@@ -177,12 +185,15 @@ h3 {
     background: var(--active-link-cl);
 }
 
+.section {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
 .section-features {
     display: flex;
     align-items: flex-start;
     gap: 24px;
-    padding-top: 120px;
-    padding-bottom: 120px;
 }
 
 .features-section {
@@ -195,6 +206,7 @@ h3 {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: var(--logo-up-nav-cl);
+    padding-bottom: 8px;
 }
 
 .section-text {
@@ -212,6 +224,22 @@ h3 {
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: var(--logo-up-nav-cl);
+    text-align: center;
+}
+
+.section-what {
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 24px;
+}
+
+.team-section {
+    display: inline-flex;
+    margin-bottom: 120px;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    text-align: center;
 }
 
 .section-team {
@@ -219,6 +247,8 @@ h3 {
 }
 
 .section-team-title {
+    padding-top: 120px;
+
     font-style: normal;
     font-weight: 700;
     font-size: 36px;
@@ -226,11 +256,24 @@ h3 {
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: var(--logo-up-nav-cl);
+    text-align: center;
 }
 
 .team-back {
     background-color: var(--main-background-cl);
 }
+
+.prt-btn {
+    display: flex;
+    padding: 12px 24px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    gap: 24px;
+    
+}
+
+.card {}
 
 .portfolio-btn {
     color: var(--main-logo-cl);
