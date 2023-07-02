@@ -62,6 +62,14 @@ main {
     flex-grow: 1;
 }
 
+img {
+    display: block;
+}
+
+.header {
+    border-bottom: 1px solid #e7e9fc;
+}
+
 .page-container {
     min-height: 100vh;
     display: flex;
@@ -77,8 +85,6 @@ main {
 .header-nav {
     display: flex;
     align-items: center;
-    padding-top: 24px;
-    padding-bottom: 24px;
     justify-content: center;
     flex-shrink: 0;
 }
@@ -87,6 +93,8 @@ main {
     display: flex;
     align-items: center;
     gap: 40px; 
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 
 .header-address {
@@ -99,7 +107,7 @@ main {
 .logo {
     display: flex;
     align-items: center;
-    padding-right: 76px;
+    margin-right: 76px;
 
     font-family: 'Raleway', sans-serif;
     font-weight: 800;
