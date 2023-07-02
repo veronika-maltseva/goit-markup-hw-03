@@ -172,11 +172,13 @@ img {
     margin-right: auto;
     background-color: var(--logo-up-nav-cl);
     color: var(--main-background-cl);
+    padding: 188px 0;
 }
 
 .hero-title {
     padding-top: 188px;
     padding-bottom: 48px;
+    max-width: 496px;
 
     font-weight: 700;
     font-size: 56px;
@@ -186,7 +188,7 @@ img {
 }
 
 .hero-btn {
-    display: inline-flex;
+    display: block;
     padding: 16px 32px;
     align-items: flex-start;
     gap: 10px;
