@@ -66,6 +66,20 @@ img {
     display: block;
 }
 
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
 .header {
     border-bottom: 1px solid #e7e9fc;
 }
@@ -193,6 +207,9 @@ img {
     align-items: flex-start;
     gap: 10px;
     margin-bottom: 188px;
+    min-width: 169px;
+    height: 56px;
+    border: none;
 
     background-color: var(--main-logo-cl);
     color: var(--main-background-cl);
@@ -214,10 +231,14 @@ img {
     display: flex;
     align-items: flex-start;
     gap: 24px;
+    flex-basis: calc((100% - 3 * 24px) / 4);
 }
 
 .features-section {
+    padding: 120px 0;
 }
+
+.features-first {}
 
 .general-section-title {
     font-style: normal;
@@ -226,7 +247,7 @@ img {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: var(--logo-up-nav-cl);
-    padding-bottom: 8px;
+    margin-bottom: 8px;
 }
 
 .section-text {
@@ -245,21 +266,31 @@ img {
     text-transform: capitalize;
     color: var(--logo-up-nav-cl);
     text-align: center;
+    margin-bottom: 72px;
 }
 
 .section-what {
-    display: inline-flex;
+    display: flex;
     align-items: flex-start;
     gap: 24px;
+    padding-bottom: 120px;
+}
+
+.what-first {
+    width: calc((100% - 48px) / 3);
+}
+
+.container-team {
+    padding: 32px 16px;
 }
 
 .team-section {
-    display: inline-flex;
-    margin-bottom: 120px;
+    display: flex;
     justify-content: center;
     align-items: center;
     gap: 24px;
     text-align: center;
+    padding: 120px 0;
 }
 
 .section-team {
@@ -268,6 +299,7 @@ img {
 
 .section-team-title {
     padding-top: 120px;
+    margin-bottom: 72px;
 
     font-style: normal;
     font-weight: 700;
@@ -279,8 +311,21 @@ img {
     text-align: center;
 }
 
+.team-first {
+    border-radius: 0px 0px 4px 4px;
+}
+
 .team-back {
     background-color: var(--main-background-cl);
+}
+
+.worker-title {
+    text-align: center;
+    margin-bottom: 8px;
+}
+
+.team-text {
+    text-align: center;
 }
 
 .prt-btn {
@@ -317,6 +362,8 @@ img {
 }
 
 .footer {
+    padding: 100px 0;
+
     background-color: var(--logo-up-nav-cl);
     text-align: left;
 }
@@ -325,4 +372,9 @@ img {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--logo-down-cl);
+}
+
+.footer-link {
+    display: inline-block;
+    margin-bottom: 16px;
 }
