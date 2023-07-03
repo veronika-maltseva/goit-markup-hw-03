@@ -113,8 +113,6 @@ img {
     display: flex;
     align-items: center;
     gap: 40px; 
-    padding-top: 24px;
-    padding-bottom: 24px;
 }
 
 .header-address {
@@ -128,6 +126,7 @@ img {
     display: flex;
     align-items: center;
     margin-right: 76px;
+    padding: 24px 0;
 
     font-family: 'Raleway', sans-serif;
     font-weight: 800;
