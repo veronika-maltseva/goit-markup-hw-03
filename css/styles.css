@@ -11,6 +11,8 @@
     --logo-down-cl: #F4F4FD;
     --active-link-cl: #404BBF;
     --main-background-cl: #FFFFFF;
+    --border-clr: #E7E9FC;
+    --shadow-cl: rgba(0, 0, 0, 0.15);
     }
 
 body {
@@ -81,7 +83,7 @@ img {
 }
 
 .header {
-    border-bottom: 1px solid #e7e9fc;
+    border-bottom: 1px solid var(--border-clr);
 }
 
 .page-container {
@@ -214,7 +216,7 @@ img {
     background-color: var(--main-logo-cl);
     color: var(--main-background-cl);
     border-radius: 4px;
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    box-shadow: 0px 4px 4px 0px var(--shadow-cl);
 }
 
 .hero-btn:hover,
@@ -360,8 +362,8 @@ img {
     align-items: flex-start;
     gap: 32px;
     flex-shrink: 0;
-    border: 1px solid var(--cornflower, #E7E9FC);
-    background: var(--white, #FFF);
+    border: 1px solid var(--border-clr);
+    background: var(--main-background-cl);
 }
 
 .card-li {
@@ -370,13 +372,13 @@ img {
 
 .container-portfolio {
     padding: 32px 16px;
-    border: 1px solid #e7e9fc;
+    border: 1px solid var(--border-clr);
     border-top: none;
 }
 
 .portfolio-btn {
     padding: 12px 24px;
-    border: 1px solid #e7e9fc;
+    border: 1px solid var(--border-clr);
     border-radius: 4px;
 
     color: var(--main-logo-cl);
