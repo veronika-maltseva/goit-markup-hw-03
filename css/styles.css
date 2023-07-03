@@ -113,6 +113,7 @@ img {
     display: flex;
     align-items: center;
     gap: 40px; 
+    margin-right: 332px;
 }
 
 .header-address {
@@ -120,6 +121,7 @@ img {
     align-items: center;
     gap: 40px;
     padding-left: 35px;
+    margin-right: 156px;
 }
 
 .logo {
@@ -199,6 +201,7 @@ img {
     padding-top: 188px;
     padding-bottom: 48px;
     max-width: 496px;
+    margin: 0 auto;
 
     font-weight: 700;
     font-size: 56px;
@@ -212,7 +215,7 @@ img {
     padding: 16px 32px;
     align-items: flex-start;
     gap: 10px;
-    margin-bottom: 188px;
+    margin:0 auto 188px;
     min-width: 169px;
     height: 56px;
     border: none;
