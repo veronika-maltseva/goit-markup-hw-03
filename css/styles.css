@@ -353,14 +353,14 @@ img {
 }
 
 .card {
-    display: flex-wrap;
+    display: flex;
+    flex-wrap: wrap;
     column-gap: 24px;
     row-gap: 48px;
-    width: 360px;
-    height: 420px;
+    min-width: 360px;
+    min-height: 420px;
     padding-bottom: 0px;
     align-items: flex-start;
-    gap: 32px;
     flex-shrink: 0;
     border: 1px solid var(--border-clr);
     background: var(--main-background-cl);
