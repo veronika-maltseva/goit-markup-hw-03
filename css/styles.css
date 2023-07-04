@@ -369,7 +369,6 @@ img {
     padding-bottom: 0px;
     align-items: flex-start;
     flex-shrink: 0;
-    border: 1px solid var(--border-clr);
     background: var(--main-background-cl);
 }
 
