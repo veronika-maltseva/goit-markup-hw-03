@@ -241,6 +241,7 @@ img {
     align-items: flex-start;
     gap: 24px;
     flex-basis: calc((100% - 3 * 24px) / 4);
+    padding: 120px 0;
 }
 
 .features-section {}
@@ -309,6 +310,9 @@ img {
 
 .section-team {
     background-color: var(--logo-down-cl);
+    padding: 120px 0;
+    padding-bottom: 0;
+    padding-top: 0;
 }
 
 .section-team-title {
